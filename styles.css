@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  margin: 0px;
+  font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.bg img {
+  height: 850px;
+  width: 100%;
+  opacity: 50%;
+}
+header {
+  position: absolute;
+  top: 0;
+}
+header .logo img {
+  height: 80%;
+  width: 200px;
+  padding-left: 20px;
+  padding-top: none;
+}
+.total-box {
+  position: absolute;
+  padding: 35px 45px 0px 45px;
+  background-color: #000000ca;
+  top: 15%;
+  right: 33%;
+  left: 36%;
+  border-radius: 5px;
+  height: 630px;
+  width: 363px;
+}
+.sign-in h1 {
+  color: white;
+  padding-left: 25px;
+}
+.input-box {
+  padding-left: 20px;
+}
+.input-box input {
+  width: 310px;
+  height: 50px;
+  margin: 8px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #8c8c8c;
+  font-size: 13px;
+  padding: 15px;
+}
+.total-box .input-box button {
+  background-color: #e50914;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 312px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin: 40px 10px 0px 10px;
+}
+.total-box .last {
+  padding: 0px 0px 0px 27px;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.last .ob1 label {
+  color: #8c8c8c;
+}
+.last .ob2 p {
+  padding-right: 20px;
+  color: #8c8c8c;
+}
+.text {
+  margin-top: 20px;
+  padding: 33px;
+}
+.text .text1 p {
+  font-size: 16px;
+  color: #8c8c8c;
+}
+.text .text1 span {
+  color: white;
+  font-weight: 450;
+}
+.text .text2 p {
+  font-size: 13px;
+  color: #8c8c8c;
+  padding-left: 0px;
+}
+.text .text2 {
+  font-weight: 450;
+}
+.text .text2 span {
+  color: rgb(6, 65, 228);
+  font-weight: 450;
+}
+.footbox {
+  position: absolute;
+
+  max-width: 900px;
+  margin: auto auto;
+  background-color: #000000ca;
+  height: 22vh;
+}
+.footbox .heading1 h4 {
+  padding: 0px 0px 0px 387px;
+  color: #8c8c8c;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footbox .listing ul {
+  display: flex;
+
+  margin-left: 300px;
+}
+.footbox .listing li {
+  width: 50%;
+  height: auto;
+  padding: 10px 50px;
+  font-size: 13px;
+  color: #8c8c8c;
+  list-style-type: none;
+}
+@media only screen and (max-width: 620px) {
+  .bg img {
+    display: none;
+  }
+
+  .total-box {
+    position: relative;
+    background: transparent;
+    top: 35px;
+  }
+}
